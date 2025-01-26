@@ -257,6 +257,12 @@ public class LinkedList {
 	 * A textual representation of this list, for debugging.
 	 */
 	public String toString() {
-		return "First Block: " + first.block + "\nLast Block: " + last.block + "\nSize: " + size;
+		String retString = "";
+		Node list = first;
+		while (list != null) {
+			retString += list.block + " ";
+			list = list.next;
+		}
+		return retString.substring(0, retString.length() - 1);
 	}
 }

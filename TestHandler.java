@@ -2584,7 +2584,7 @@ public class TestHandler {
 
     private boolean mallocTest6() {
         MemorySpace memorySpace = new MemorySpace(100);
-        String expectedText = "(0 , 100) \n";
+        String expectedText = "(0 , 100) \n ";
         String expected = "true";
         String actual = "";
         try {
@@ -2630,7 +2630,7 @@ public class TestHandler {
     ///// Free tests /////
     private boolean freeTest1(){
         MemorySpace memorySpace = new MemorySpace(100);
-        String expectedText = "(0 , 100) \n";
+        String expectedText = "(0 , 100) \n ";
         String expected = "true";
         String actual = "";
         try {
@@ -2769,7 +2769,7 @@ public class TestHandler {
     ///// Defrag tests /////
     private boolean defragTest1(){
         MemorySpace memorySpace = new MemorySpace(100);
-        String expectedText = "(0 , 100) \n";
+        String expectedText = "(0 , 100) \n ";
         String expected = "true";
         String actual = "";
         try {
